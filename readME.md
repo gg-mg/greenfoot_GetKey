@@ -1,5 +1,7 @@
-# Greenfoot API has two methods greenfoot.getKey() and greenfoot.isKeyDown(keyName)
+# Greenfoot API has two methods of coding to get a player to get in volved in the game
 
- which are similar buy coded very differently in Java. While greenfoot.isKeyDown(keyName) is straight forward, it can be called by lets say greenfoot.isKeyDown("left"); the getKey() method is complicated. I have written the code to call in getKey.java. The program will need proper java environment to run.
+greenfoot.getKey() and greenfoot.isKeyDown(keyName)
+
+ These two methods do the same thing, but are coded very differently in Java. The greenfoot.isKeyDown(keyName) is straight forward -- it can be called by writing a straight forward statement lets say greenfoot.isKeyDown("left");. The getKey() method is complicated. There is code to call in getKey.java which demonstrates how to call getKey(). The program will need proper java environment to run.
 
 

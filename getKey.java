@@ -1,8 +1,9 @@
 
 //Using  greenfoot.getKey() from the greenfoot API
-String key = greenfoot.getKey();
+string key = greenfoot.getKey();
 
-If (key != null){
+If (key != null)//must press key for an action to take place
+{
     if (key.equals("left")){
         turn (-5);
     }
